@@ -1,0 +1,11 @@
+C:\Users\Shehan Amarasooriya\Desktop\CRIMS\MINIPROJECT\24 aug\MiniProjectFinal\MiniProjectFinal\obj\x86\Release\MiniProjectFinal.ApprovedRequest.resources
+C:\Users\Shehan Amarasooriya\Desktop\CRIMS\MINIPROJECT\24 aug\MiniProjectFinal\MiniProjectFinal\obj\x86\Release\MiniProjectFinal.CurrentStock.resources
+C:\Users\Shehan Amarasooriya\Desktop\CRIMS\MINIPROJECT\24 aug\MiniProjectFinal\MiniProjectFinal\obj\x86\Release\MiniProjectFinal.IssuedRequestvb.resources
+C:\Users\Shehan Amarasooriya\Desktop\CRIMS\MINIPROJECT\24 aug\MiniProjectFinal\MiniProjectFinal\obj\x86\Release\MiniProjectFinal.Login.resources
+C:\Users\Shehan Amarasooriya\Desktop\CRIMS\MINIPROJECT\24 aug\MiniProjectFinal\MiniProjectFinal\obj\x86\Release\MiniProjectFinal.Resources.resources
+C:\Users\Shehan Amarasooriya\Desktop\CRIMS\MINIPROJECT\24 aug\MiniProjectFinal\MiniProjectFinal\obj\x86\Release\MiniProjectFinal.OfficerIc.resources
+C:\Users\Shehan Amarasooriya\Desktop\CRIMS\MINIPROJECT\24 aug\MiniProjectFinal\MiniProjectFinal\obj\x86\Release\MiniProjectFinal.Reject_Request.resources
+C:\Users\Shehan Amarasooriya\Desktop\CRIMS\MINIPROJECT\24 aug\MiniProjectFinal\MiniProjectFinal\obj\x86\Release\MiniProjectFinal.Technician.resources
+C:\Users\Shehan Amarasooriya\Desktop\CRIMS\MINIPROJECT\24 aug\MiniProjectFinal\MiniProjectFinal\obj\x86\Release\MiniProjectFinal.inventoryHolder.resources
+C:\Users\Shehan Amarasooriya\Desktop\CRIMS\MINIPROJECT\24 aug\MiniProjectFinal\MiniProjectFinal\obj\x86\Release\MiniProjectFinal.SysAdmin.resources
+C:\Users\Shehan Amarasooriya\Desktop\CRIMS\MINIPROJECT\24 aug\MiniProjectFinal\MiniProjectFinal\obj\x86\Release\MiniProjectFinal.vbproj.GenerateResource.Cache

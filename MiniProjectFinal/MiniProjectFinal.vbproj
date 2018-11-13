@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B67850FE-7752-4A68-BAF0-AB3F5042CF18}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MiniProjectFinal.My.MyApplication</StartupObject>
+    <RootNamespace>MiniProjectFinal</RootNamespace>
+    <AssemblyName>MiniProjectFinal</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MiniProjectFinal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MiniProjectFinal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="ApprovedRequest.Designer.vb">
+      <DependentUpon>ApprovedRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApprovedRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRISMS.Designer.vb">
+      <DependentUpon>CRISMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CRISMS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrentStock.Designer.vb">
+      <DependentUpon>CurrentStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IssuedRequestvb.Designer.vb">
+      <DependentUpon>IssuedRequestvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IssuedRequestvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginAdmin.Designer.vb">
+      <DependentUpon>LoginAdmin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OfficerIc.Designer.vb">
+      <DependentUpon>OfficerIc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OfficerIc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reject Request.Designer.vb">
+      <DependentUpon>Reject Request.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reject Request.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Technician.Designer.vb">
+      <DependentUpon>Technician.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Technician.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventoryHolder.Designer.vb">
+      <DependentUpon>inventoryHolder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryHolder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysAdmin.Designer.vb">
+      <DependentUpon>SysAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SysAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ApprovedRequest.resx">
+      <DependentUpon>ApprovedRequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRISMS.resx">
+      <DependentUpon>CRISMS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrentStock.resx">
+      <DependentUpon>CurrentStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssuedRequestvb.resx">
+      <DependentUpon>IssuedRequestvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginAdmin.resx">
+      <DependentUpon>LoginAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfficerIc.resx">
+      <DependentUpon>OfficerIc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reject Request.resx">
+      <DependentUpon>Reject Request.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Technician.resx">
+      <DependentUpon>Technician.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventoryHolder.resx">
+      <DependentUpon>inventoryHolder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysAdmin.resx">
+      <DependentUpon>SysAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Interface.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22222222222222222.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\222222222222222221.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADD.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
